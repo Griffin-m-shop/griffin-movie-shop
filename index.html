@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Movies, translated series, phone accessories and electronics at Griffin Movie Shop in Nyametaburo, Migori County, Kenya.">
+  <title>Griffin Movie Shop</title>
+  <style>
+    body { background: #080808; color: white; font-family: Arial, sans-serif; margin: 0; }
+    header { background: darkred; text-align: center; padding: 30px; }
+    header h1 { font-size: 35px; margin-bottom: 10px; }
+    nav { background: #181818; padding: 15px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 10px; font-weight: bold; }
+    nav a:hover { color: red; }
+    .welcome { text-align: center; padding: 40px 20px; }
+    .welcome h2, section h2 { color: red; }
+    section { padding: 25px; }
+    section h2 { border-bottom: 2px solid darkred; padding-bottom: 10px; }
+    .products { display: flex; flex-wrap: wrap; gap: 15px; }
+    .product { background: #1b1b1b; padding: 20px; border-radius: 10px; flex: 1 1 200px; }
+    .price { color: yellow; font-weight: bold; }
+    .button { display: inline-block; background: darkred; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+    .button:hover { background: red; }
+    .contact { background: #151515; text-align: center; padding: 30px; }
+    footer { background: darkred; text-align: center; padding: 20px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 25px; }
+      nav a { display: inline-block; margin: 8px; }
+      section { padding: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎬 GRIFFIN MOVIE SHOP</h1>
+    <p>Movies | Phone Accessories | Electronics</p>
+    <p>Welcome to our shop!</p>
+  </header>
+  <nav aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#movies">Movies</a>
+    <a href="#series">Series</a>
+    <a href="#accessories">Accessories</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section class="welcome" id="home">
+      <h2>Welcome to Griffin Movie Shop</h2>
+      <p>Your favourite movies and phone accessories are available here.</p>
+      <p>We respect each and every customer.</p>
+    </section>
+    <section id="movies">
+      <h2>🎬 Our Movies</h2>
+      <div class="products">
+        <article class="product"><h3>Bongo Movies</h3><p>Enjoy your favourite Bongo movies.</p><p class="price">KSh 20</p></article>
+        <article class="product"><h3>Action Movies</h3><p>Enjoy exciting action movies.</p><p class="price">KSh 20</p></article>
+      </div>
+    </section>
+    <section id="series">
+      <h2>📺 Translated Series</h2>
+      <div class="products">
+        <article class="product"><h3>DJ Afro Series</h3><p>10 Episodes</p><p class="price">KSh 20</p><p>Full Series: KSh 70</p></article>
+        <article class="product"><h3>Hindi Series</h3><p>Enjoy translated Hindi series.</p><p class="price">From KSh 20</p></article>
+        <article class="product"><h3>Chinese &amp; Turkish Series</h3><p>Enjoy translated entertainment.</p><p class="price">From KSh 20</p></article>
+      </div>
+    </section>
+    <section id="accessories">
+      <h2>📱 Phone Accessories</h2>
+      <div class="products">
+        <article class="product"><h3>Phone Chargers</h3><p>Quality phone chargers available.</p><p class="price">Visit our shop</p></article>
+        <article class="product"><h3>Earphones</h3><p>Enjoy music with earphones.</p><p class="price">Visit our shop</p></article>
+        <article class="product"><h3>Flash Disks</h3><p>Storage devices for your files.</p><p class="price">Visit our shop</p></article>
+        <article class="product"><h3>Phone Batteries</h3><p>Available for selected phone models.</p><p class="price">Visit our shop</p></article>
+        <article class="product"><h3>Phone Charging Cables</h3><p>Charging cables for different phones.</p><p class="price">Visit our shop</p></article>
+      </div>
+    </section>
+    <section id="about">
+      <h2>🏪 About Griffin Movie Shop</h2>
+      <p>Griffin Movie Shop is your local destination for movies, series, phone accessories and electronics.</p>
+      <p>We welcome every customer and provide friendly service.</p>
+    </section>
+    <section id="location">
+      <h2>📍 Find Griffin Movie Shop</h2>
+      <p>Location: Nyametaburo, Migori County, Kenya</p>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Nyametaburo%2C%20Migori%2C%20Kenya" target="_blank" rel="noopener noreferrer">Find Us on Google Maps</a>
+    </section>
+    <section class="contact" id="contact">
+      <h2>📞 Contact Us</h2>
+      <p>Griffin Movie Shop</p>
+      <p>Phone: 0768878727</p>
+      <p>Welcome to our shop!</p>
+      <a class="button" href="https://wa.me/254768878727">Chat with us on WhatsApp</a>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Griffin Movie Shop</p>
+    <p>Movies | Accessories | Electronics</p>
+  </footer>
+</body>
+</html>
